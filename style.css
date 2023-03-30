@@ -1,0 +1,27 @@
+body{
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(220, 15%, 55%)
+}
+
+.qr-code-component{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 230px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 100px auto;
+}
+
+.qr-code img{
+  width: 230px;
+  border-radius: 5px;
+}
+
+.qr-code-content p{
+  color:rgb(163, 163, 163);
+  font-size: 14px;
+  padding: 5px;
+  font-weight: 400;
+}
